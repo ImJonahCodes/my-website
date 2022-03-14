@@ -21,7 +21,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/ImJonahCodes/my-website">
-    <img src="https://imgur.com/a/U9QGaRJ" alt="Logo" width="80" height="80">
+    <img src="https://i.imgur.com/ZNaD7uc.png" alt="Logo" width="120" height="120">
   </a>
 
 <h3 align="center">My Website</h3>
@@ -58,7 +58,6 @@
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
@@ -93,57 +92,49 @@ This is the Official Source Code for my website https://jonahcodes.com. Basic HT
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+Setting this website up is really simple. Just follow the instructions below. For help, join my discord [Here]()
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
+These are just the basics. Prerequisites depend on your current server installations. Please refer to the NodeJS [docs](https://nodejs.org/en/download/package-manager/) for more information.
+
+* Update Local Packages
   ```sh
-  npm install npm@latest -g
+  sudo apt update
+  ```
+* Install NodeJS
+  ```sh
+  sudo apt install nodejs
   ```
 
 ### Installation
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+1. Clone the repo
    ```sh
-   git clone https://github.com/github_username/repo_name.git
+   git clone https://github.com/ImJonahCodes/my-website
    ```
-3. Install NPM packages
+3. Install NPM packages (Packages are already included but run just in case)
    ```sh
    npm install
    ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
+4. Edit files to your liking!
+
+Note: Again, basic HTML, CSS, NodeJS and Express knowlegde is recommended
 
 <p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
-<!-- USAGE EXAMPLES -->
-## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
 
 
 <!-- ROADMAP -->
 ## Roadmap
 
-- [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
-    - [ ] Nested Feature
+- [✔] Complete Front-End For Home Page
+- [ ] Add Shop Page
+- [ ] Account Page
+- [ ] Add Backend
+    - [ ] Discord Login
+    - [ ] Shop Backend
 
-See the [open issues](https://github.com/github_username/repo_name/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/ImJonahCodes/my-website/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -179,9 +170,9 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
+Jonah Codes - [@JonahCodes](https://twitter.com/JonahCodes) - contact@jonahcodes.com
 
-Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
+Project Link: [https://github.com/ImJonahCodes/my-website](https://github.com/ImJonahCodes/my-website)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -190,9 +181,7 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-* []()
-* []()
-* []()
+* Huge thanks to [Hyperz](https://github.com/Itz-Hyperz) for this amazing [EJS Template](https://github.com/Itz-Hyperz/EJS-WebTemplate)!
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -200,16 +189,16 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/github_username/repo_name.svg?style=for-the-badge
-[contributors-url]: https://github.com/github_username/repo_name/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/github_username/repo_name.svg?style=for-the-badge
-[forks-url]: https://github.com/github_username/repo_name/network/members
-[stars-shield]: https://img.shields.io/github/stars/github_username/repo_name.svg?style=for-the-badge
-[stars-url]: https://github.com/github_username/repo_name/stargazers
-[issues-shield]: https://img.shields.io/github/issues/github_username/repo_name.svg?style=for-the-badge
-[issues-url]: https://github.com/github_username/repo_name/issues
-[license-shield]: https://img.shields.io/github/license/github_username/repo_name.svg?style=for-the-badge
-[license-url]: https://github.com/github_username/repo_name/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/ImJonahCodes/my-website.svg?style=for-the-badge
+[contributors-url]: https://github.com/ImJonahCodes/my-website/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/ImJonahCodes/my-website.svg?style=for-the-badge
+[forks-url]: https://github.com/ImJonahCodes/my-website/network/members
+[stars-shield]: https://img.shields.io/github/stars/ImJonahCodes/my-website.svg?style=for-the-badge
+[stars-url]: https://github.com/ImJonahCodes/my-website/stargazers
+[issues-shield]: https://img.shields.io/github/issues/ImJonahCodes/my-website.svg?style=for-the-badge
+[issues-url]: https://github.com/ImJonahCodes/my-website/issues
+[license-shield]: https://img.shields.io/github/license/ImJonahCodes/my-website.svg?style=for-the-badge
+[license-url]: https://github.com/ImJonahCodes/my-website/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/linkedin_username
 [product-screenshot]: images/screenshot.png
