@@ -1,0 +1,29 @@
+{
+  "name": "ejs-webtemplate",
+  "version": "0.0.0",
+  "main": "public/sass/bulma.scss",
+  "private": true,
+  "scripts": {
+    "idk": "nodemon index.js",
+    "css-build": "node-sass --omit-source-map-url public/sass/bulma.scss public/css/bulma.css",
+    "css-watch": "npm run css-build -- --watch",
+    "start": "npm run css-watch"
+  },
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "ejs": "^3.1.6",
+    "express": "^4.16.4",
+    "http-errors": "~1.6.3",
+    "hyperz-nodelogger": "^3.7.1",
+    "jade": "^0.29.0",
+    "morgan": "~1.9.1",
+    "ms": "^2.0.0",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "bulma": "^0.9.3",
+    "node-sass": "^7.0.1"
+  }
+}
