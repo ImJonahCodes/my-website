@@ -1,10 +1,9 @@
 {
-  "name": "ejs-webtemplate",
+  "name": "jonahcodes",
   "version": "0.0.0",
   "main": "public/sass/bulma.scss",
   "private": true,
   "scripts": {
-    "idk": "nodemon index.js",
     "css-build": "node-sass --omit-source-map-url public/sass/bulma.scss public/css/bulma.css",
     "css-watch": "npm run css-build -- --watch",
     "start": "npm run css-watch"
